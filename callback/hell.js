@@ -11,7 +11,7 @@ fs.readFile("input.txt", "utf8", (err, data) => {
       console.error(err);
       return;
     }
-    console.log("File has been written");
+    console.log("File has bee written");
     fs.readFile("output.txt", "utf8", (err, data) => {
       if (err) {
         console.error(err);
